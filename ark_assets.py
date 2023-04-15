@@ -10,6 +10,7 @@ import threading
 import time
 import UnityPy
 import zipfile
+import PIL
 from Crypto.Cipher import AES
 from enum import Enum
 from io import BytesIO
@@ -429,5 +430,5 @@ class ArkAssets:
         return res
 
 a = ArkAssets()
-a.download('D:/ArkAssets')
+a.download('F:/ArkAssets')
 # a.download_fromlist(['lpack/lcom'], 'D:/ArkAssets')
